@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing...</title>
+    <!-- main css file -->
+    <link rel="stylesheet" href="style.css">
+    <!-- reset css file -->
+    <link rel="stylesheet" href="reset.css">
+    <!-- main font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&family=Fraunces:wght@300;700&family=Hanken+Grotesk:wght@500;700;800&family=Kumbh+Sans:wght@400;700&family=Montserrat:wght@500;700&family=Open+Sans:wght@400;700&family=Outfit:wght@400;600;900&family=Poppins:wght@200;400;600&family=Space+Mono:wght@400;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <div class="content1">
+            <div class="title">
+                <h1>Esi Typing</h1>
+            </div>
+            <div class="first-page">
+                <p>Start You Typing Journy!</p>
+                <input type="text" class="name" maxlength="19" placeholder="enter your name">
+                <div class="lvl">
+                    <p>Levels</p>
+                    <input type="radio" name="levels" id="easy">
+                    <label for="easy">Easy</label>
+                    <br>
+                    <input type="radio" name="levels" id="mediem" checked>
+                    <label for="mediem">Mediem</label>
+                    <br>
+                    <input type="radio" name="levels" id="hard">
+                    <label for="hard">Hard</label>
+                </div>
+                <div class="mode">
+                    <p>Modes</p>
+                    <input type="radio" name="modes" id="standard" checked>
+                    <label for="standard">Standard</label>
+                    <br>
+                    <input type="radio" name="modes" id="rep">
+                    <label for="rep">Repeating words</label>
+                </div>
+                <div class="game-btn">Start Game</div>
+            </div>
+        </div>
+        <div class="content2">
+            <div class="name-score"><span class="name2">Unknown</span>
+                <div class="best-score">Best Score : <span class="score">0 wpm</span></div>
+            </div>
+            <div class="message">
+                <p>You Are Playing <span class="game-mode">Standard</span> Mode on <span class="game-lvl">Easy</span>
+                    level</p>
+            </div>
+            <div class="mission">
+            </div>
+            <div class="input-feild"><input type="text" class="input" > <span class="accuracy" >100%</span><span
+                    class="wpm">0 wpm</span></div>
+            <div class="buttons">
+                <div class="back">Return</div>
+                <div class="again">Play Again</div>
+            </div>
+        </div>
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>
